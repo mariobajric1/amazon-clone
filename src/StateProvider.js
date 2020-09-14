@@ -1,14 +1,14 @@
 import React, { createContext, useContext, useReducer } from "react";
 
-//prepares react contect api / datalayer
+// Prepares the dataLayer
 export const StateContext = createContext();
 
-//wrap app
+// Wrap our app and provide the Data layer
 export const StateProvider = ({ reducer, initialState, children }) => (
-	<StateContext.Provider value={useReducer(reducer, initialState)}>
-		{children}
-	</StateContext.Provider>
+  <StateContext.Provider value={useReducer(reducer, initialState)}>
+    {children}
+  </StateContext.Provider>
 );
 
-//pull info
+// Pull information from the data layer
 export const useStateValue = () => useContext(StateContext);
