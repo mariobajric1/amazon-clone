@@ -9,7 +9,7 @@ function Home() {
 			<div className="home__container">
 				<img
 					className="home__image"
-					image="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/MTc0Y2M5Y2Mt/MTc0Y2M5Y2Mt-ZTMzMTk5Yjct-w3000._CB406837549_.jpg"
+					src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
 					alt=""
 				/>
 				<div className="home__row">
@@ -56,10 +56,18 @@ function Home() {
 						id="789789341"
 						title="
 						LG SIGNATURE W9 Wallpaper 77 inch Class 4K"
-						price={1219.99}
+						price={9999.99}
 						image="https://www.lg.com/us/images/tvs/md06065036/gallery/OLED77W9PUA_1100_v6.jpg"
 						rating={4}
-					/>{" "}
+					/>
+					<Product
+						id="789789341"
+						title="
+						12.9-inch Apple iPad Pro + Keyboard Stand"
+						price={9999.99}
+						image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-og-202003?wid=1200&hei=630&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1583201083141"
+						rating={4}
+					/>
 				</div>
 			</div>
 		</div>
